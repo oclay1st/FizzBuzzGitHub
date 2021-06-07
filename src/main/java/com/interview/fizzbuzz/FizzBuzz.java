@@ -50,7 +50,7 @@ public class FizzBuzz {
      * @return boolean: true or false if is divisible by three and five
      */
     public static boolean isDivisibleByThreeAndFive(int number) {
-        return number % 15 == 0;
+        return isDivisibleByThree(number) && isDivisibleByFive(number);
     }
 
     /**
